@@ -1,0 +1,35 @@
+{
+  "name": "nextjs-passport-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "build": "next build ./src",
+    "start": "NODE_ENV=production node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aligos/nextjs-passport-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aligos/nextjs-passport-starter/issues"
+  },
+  "homepage": "https://github.com/aligos/nextjs-passport-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
+  }
+}
